@@ -1,4 +1,4 @@
-# env-doctor 🩺
+# env-doctor
 
 > Audita variáveis de ambiente do seu projeto em segundos: encontra **variáveis faltando**, **não usadas**, **vazias** e **segredos commitados** por engano.
 
@@ -8,20 +8,20 @@ Suporta **Python, JavaScript, TypeScript, Vite (`import.meta.env`), Go e shell s
 
 ---
 
-## ✨ Features
+## Features
 
-- 🔍 Varre todo o código procurando `process.env.X`, `os.getenv("X")`, `import.meta.env.X`, `os.Getenv("X")`, `$VAR`, etc.
-- 📄 Lê todos os `.env`, `.env.local`, `.env.production`, `.env.example`…
-- ❌ Lista variáveis **usadas mas não declaradas** (vai quebrar em produção)
-- 🧹 Lista variáveis **declaradas mas nunca usadas** (lixo / risco)
-- ⚠️ Detecta **segredos commitados** (`*KEY`, `*SECRET`, `*TOKEN`, `*PASSWORD`…)
-- 🛠 `--fix` adiciona as variáveis faltantes automaticamente ao seu `.env.example`
-- 🤖 Saída em `text`, `json` ou `md` — pronta pra CI/CD
-- ⚙️ Zero dependências (apenas stdlib do Python 3.9+)
+-  Varre todo o código procurando `process.env.X`, `os.getenv("X")`, `import.meta.env.X`, `os.Getenv("X")`, `$VAR`, etc.
+-  Lê todos os `.env`, `.env.local`, `.env.production`, `.env.example`…
+-  Lista variáveis **usadas mas não declaradas** (vai quebrar em produção)
+-  Lista variáveis **declaradas mas nunca usadas** (lixo / risco)
+-  Detecta **segredos commitados** (`*KEY`, `*SECRET`, `*TOKEN`, `*PASSWORD`…)
+-  `--fix` adiciona as variáveis faltantes automaticamente ao seu `.env.example`
+-  Saída em `text`, `json` ou `md` — pronta pra CI/CD
+-  Zero dependências (apenas stdlib do Python 3.9+)
 
 ---
 
-## 🚀 Instalação
+##  Instalação
 
 ```bash
 git clone https://github.com/Th1iago3/env-doctor.git
@@ -116,7 +116,7 @@ jobs:
 
 ---
 
-## 🧪 Rodando os testes
+## Rodando os testes
 
 ```bash
 python3 tests/test_basic.py
@@ -124,7 +124,7 @@ python3 tests/test_basic.py
 
 ---
 
-## 📂 Estrutura
+## Estrutura
 
 ```
 env-doctor/
@@ -145,7 +145,7 @@ env-doctor/
 
 ---
 
-## 🛣 Roadmap
+## Roadmap
 
 - [ ] Suporte a `.envrc` (direnv)
 - [ ] Plugin pra `pre-commit`
@@ -155,12 +155,12 @@ env-doctor/
 
 ---
 
-## 👤 Créditos
+## Créditos
 
 Criado por **Thiago** — [github.com/Th1iago3](https://github.com/Th1iago3)
 
 Contribuições são muito bem-vindas! Abra uma issue ou PR.
 
-## 📜 Licença
+## Licença
 
 MIT — use à vontade, inclusive comercialmente.
