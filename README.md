@@ -1,4 +1,4 @@
-# env-doctor
+# EnvDoctor
 
 > Audita variáveis de ambiente do seu projeto em segundos: encontra **variáveis faltando**, **não usadas**, **vazias** e **segredos commitados** por engano.
 
@@ -24,7 +24,7 @@ Suporta **Python, JavaScript, TypeScript, Vite (`import.meta.env`), Go e shell s
 ##  Instalação
 
 ```bash
-git clone https://github.com/Th1iago3/env-doctor.git
+git clone https://github.com/Th1iago3/EnvDoctor.git
 cd env-doctor
 python3 -m envdoctor check --path /caminho/do/seu/projeto
 ```
@@ -94,7 +94,7 @@ Status: ❌ problemas encontrados
 
 ---
 
-## 🤖 Integração com GitHub Actions
+## Integração com GitHub Actions
 
 `.github/workflows/env-check.yml`:
 ```yaml
