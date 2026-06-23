@@ -145,16 +145,6 @@ env-doctor/
 
 ---
 
-## Roadmap
-
-- [ ] Suporte a `.envrc` (direnv)
-- [ ] Plugin pra `pre-commit`
-- [ ] Diff entre dois ambientes (`.env.dev` vs `.env.prod`)
-- [ ] Detector de variáveis duplicadas com valores diferentes
-- [ ] Ação oficial do GitHub Marketplace
-
----
-
 ## Créditos
 
 Criado por **Thiago** — [github.com/Th1iago3](https://github.com/Th1iago3)
