@@ -2,7 +2,7 @@
 
 > Audita variáveis de ambiente do seu projeto em segundos: encontra **variáveis faltando**, **não usadas**, **vazias** e **segredos commitados** por engano.
 
-Quem nunca subiu pra produção e descobriu que faltava uma `STRIPE_KEY` no `.env`? Ou commitou um `.env.example` desatualizado? Ou esqueceu uma `API_SECRET` real no repositório? **env-doctor resolve isso.**
+Quem nunca subiu pra produção e descobriu que faltava uma `STRIPE_KEY` no `.env`? Ou commitou um `.env.example` desatualizado? Ou esqueceu uma `API_SECRET` real no repositório? **EnvDoctor resolve isso.**
 
 Suporta **Python, JavaScript, TypeScript, Vite (`import.meta.env`), Go e shell scripts** — funciona em qualquer projeto poliglota sem configuração.
 
@@ -25,7 +25,7 @@ Suporta **Python, JavaScript, TypeScript, Vite (`import.meta.env`), Go e shell s
 
 ```bash
 git clone https://github.com/Th1iago3/EnvDoctor.git
-cd env-doctor
+cd EnvDoctor
 python3 -m envdoctor check --path /caminho/do/seu/projeto
 ```
 
@@ -72,7 +72,7 @@ Cria/atualiza `.env.example` com todas as variáveis usadas no código.
 ## 🔧 Exemplo de saída
 
 ```
-env-doctor — relatório
+EnvDoctor — relatório
 ==============================
 Arquivos .env analisados : 1
   - .env
@@ -127,7 +127,7 @@ python3 tests/test_basic.py
 ## Estrutura
 
 ```
-env-doctor/
+EnvDoctor/
 ├── envdoctor/
 │   ├── __init__.py
 │   ├── __main__.py     # python -m envdoctor
