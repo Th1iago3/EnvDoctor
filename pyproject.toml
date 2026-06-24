@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Audita variáveis de ambiente: encontra faltando, não usadas e segredos commitados."
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Thiago", email = "th1iago3@users.noreply.github.com" }]
+authors = [{ name = "Thiago", email = "thzinxxx007@gmail.com" }]
 requires-python = ">=3.9"
 keywords = ["env", "dotenv", "linter", "devtool", "ci", "secrets"]
 classifiers = [
@@ -21,5 +21,5 @@ classifiers = [
 envdoctor = "envdoctor.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/Th1iago3/env-doctor"
-Issues   = "https://github.com/Th1iago3/env-doctor/issues"
+Homepage = "https://github.com/Th1iago3/EnvDoctor"
+Issues   = "https://github.com/Th1iago3/EnvDoctor/issues"
