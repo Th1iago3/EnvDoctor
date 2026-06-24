@@ -108,7 +108,7 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
       - run: |
-          git clone --depth 1 https://github.com/Th1iago3/env-doctor.git /tmp/envd
+          git clone --depth 1 https://github.com/Th1iago3/EnvDoctor.git /tmp/envd
           python3 -m envdoctor.cli check --path . --strict
         env:
           PYTHONPATH: /tmp/envd
